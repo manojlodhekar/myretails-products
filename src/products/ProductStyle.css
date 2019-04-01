@@ -1,0 +1,223 @@
+.container{
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+.productHeader{
+  color: black !important;
+  font-size: 20px !important;
+}
+
+.detailsContainer {
+  padding: 10px;
+  height: 100%;
+  text-align: left
+}
+.offerPriceTxt{
+    font-size: 10px;
+    color: lightslategrey;
+}
+.promotions{
+    color: #cc0000;
+    font-size: 15px;
+}
+.quantityCls{
+    border: 1px solid grey;
+    padding: 8px;
+    width: 197px;
+}
+.quantityIconCls{
+    padding-right: 10px;
+    float: right;
+    font-size: 20px;
+    color: grey;
+}
+.buttonCls{
+    width: 200px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+.returnPolicyCls{
+    color: black;
+    padding-bottom: 3px;
+    font-size: 14px;
+}
+.policyHeader{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.productTitle{
+    font-size: 22px !important;
+    line-height: 1.2;
+    padding: 5px;
+    text-align: center
+}
+.productLeft{
+    margin-right: 50px;
+    min-width: 50%;
+}
+.productPrice{
+    font-size: 25px !important;
+    font-weight: bold;
+    color: black !important;
+}
+
+.category{
+    color: black !important;
+    font-size: 18px !important
+}
+
+.reviewContainer{
+    background-color: #f6f5f5 !important;
+    margin-top: 20px !important;
+    padding-left: 10px !important;
+}
+.reviewTitleCls{
+    font-size: 15px;
+    font-weight: 600;
+}
+.reviewTextCls{
+    font-size: 12px;
+    color: #666;
+}
+.starCls{
+    color: #cc0000;
+    font-size: 25px;
+}
+.ratingTxtCls{
+    font-size: 12px;
+    font-weight: 600;
+}
+.customerReviewTitle{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+}
+
+.productCarousel {
+    opacity: 0.9; 
+}
+.productCarousel.selected {
+    border: 2px solid gray !important;
+    border-radius: 7px;
+    opacity: 1; 
+}
+
+.carouselBtn{
+    margin-top: -23px;
+    height: 20px;
+    width: 10px;
+    cursor: pointer;
+}
+.viewLargeIcon{
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    color: #666;
+    font-size: large;
+}
+
+.headerInfo{
+    font-size: 17px;
+    padding: 20px;
+    text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .sliderBkg {
+        width: 75%;
+        margin-left: 20%;
+        padding: 15px;
+        cursor: pointer;
+    }
+ }
+  
+  @media (max-width: 1024px) {
+    .sliderBkg {
+        width: 55%;
+        margin-left: 20%;
+        padding: 15px;
+        cursor: pointer;
+    }
+   }
+  
+  @media (min-width: 1200px) {
+    .sliderBkg {
+        width: 40%;
+        margin-left: 25%;
+        padding: 15px;
+        cursor: pointer;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .sliderBkg {
+        width: 70%;
+        margin-left: 22%;
+        padding: 15px;
+        cursor: pointer;
+    }
+   }
+  
+  @media (max-width: 414px) {
+    .sliderBkg {
+        width: 80%;
+        margin-left: 17%;
+        padding: 15px;
+        cursor: pointer;
+    }
+   }
+  
+  @media (max-width: 375px) {
+    .sliderBkg {
+        width: 75%;
+        margin-left: 20%;
+        padding: 15px;
+        cursor: pointer;
+    }
+   }
+  
+  @media (max-width: 320px) {
+    .sliderBkg {
+        width: 80%;
+        margin-left: 9%;
+        padding: 15px;
+        cursor: pointer;
+    }
+ }
+
+ .viewReviewCls{
+    float: right;
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ .segCol{
+        padding-left: 0.1rem !important;
+        padding-right: 0.1rem  !important;
+    }
+
+ .segmentItem{
+    background: #f2f2f2 !important;
+    font-size: 8px !important;
+    font-weight: 600;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px !important;
+    border-radius: 0px !important;
+ }
+ .headContainer{
+    display: flex;
+    justify-content: space-between;
+     padding: 10px !important;
+     background-color:rgb(229, 2, 37);
+     margin: -15px -15px 10px -15px !important;
+}
+.bagIconCls {
+    margin-top: -8px;
+    height: 35px;
+    cursor: pointer; }

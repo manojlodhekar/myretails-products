@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'BogleWeb';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/Bogle_Fonts.001/Web/BogleWeb-Black.eot'); /* IE9 Compat Modes */
+  src: local('BogleWeb'), local('BogleWeb'),
+       url('/assets/Bogle_Fonts.001/Web/BogleWeb-Black.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/Bogle_Fonts.001/Web/BogleWeb-Bold.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.eot') format('embedded-opentype'), /* IE6-IE8 */
+}
+
+body {
+  font-family: BogleWeb Helvetica Neue,Helvetica,Arial,sans-serif !important;
+  background-color: #f6f6f6;
+}
+MuiSnackbarContent{
+  background-color: red !important;
+}
+
+.snakeBarCls{
+  background-color: 'red'
+}

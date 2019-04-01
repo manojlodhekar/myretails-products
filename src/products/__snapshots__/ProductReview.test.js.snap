@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductReview is defined should render inner component 1`] = `
+ReactWrapper {
+  "length": 1,
+  Symbol(enzyme.__unrendered__): <ProductReview
+    ProductReviewDetail={
+        Object {
+            "CustomerReview": Array [
+              Object {
+                "Con": Array [
+                  Object {
+                    "datePosted": "Mon Mar 11 13:13:55 UTC 2013",
+                    "title": "Very unhappy",
+                  },
+                ],
+                "Pro": Array [
+                  Object {
+                    "datePosted": "Thu Apr 18 19:42:19 UTC 2013",
+                    "title": "Fantastic Blender",
+                  },
+                ],
+                "Reviews": Array [
+                  Object {
+                    "city": "NYC",
+                    "totalVotes": "52",
+                  },
+                ],
+              },
+            ],
+          }
+    }
+>
+    <CustomerReview
+        customerReview={
+            Object {
+                "Con": Array [
+                  Object {
+                    "datePosted": "Mon Mar 11 13:13:55 UTC 2013",
+                    "title": "Very unhappy",
+                  },
+                ],
+                "Pro": Array [
+                  Object {
+                    "datePosted": "Thu Apr 18 19:42:19 UTC 2013",
+                    "title": "Fantastic Blender",
+                  },
+                ],
+                "Reviews": Array [
+                  Object {
+                    "city": "NYC",
+                    "totalVotes": "52",
+                  },
+                ],
+              }
+        }
+    />
+</ProductReview>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): null,
+  Symbol(enzyme.__nodes__): Array [
+    null,
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
