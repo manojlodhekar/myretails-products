@@ -19,5 +19,5 @@ export default {
     ADD_TO_LIST: 'ADD TO LIST',
     SHARE: 'SHARE',
     MY_RETAILS_INFO: 'MyRetail is a rapidly growing company with HQ in Richmond, VA and over 200 stores across the east coast. The company’s annual revenue last year was $5 billion and growing at the rate of 10% year over year. myRetail sells general merchandise products, including a fast growing fresh grocery segment. The stores average 80,000 sq. ft. in size and carry around 20,000 products. myRetail wants to provide a multi-channel experience for its customers online.'
-    }
+}
     

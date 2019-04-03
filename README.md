@@ -1,5 +1,5 @@
 # Retail Product Catalog
-Product catalog for retails product can see the details and buy it.
+Product catalog for retails product to view the details and buy it.
 
 # Introduction
 This Programming challenge is a Single Page Responsive Application built on ReactJS library using Redux and can be viewed and run on any device resolution including desktop browser to mobile device browser.

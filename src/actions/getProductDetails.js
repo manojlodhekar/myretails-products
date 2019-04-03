@@ -8,7 +8,6 @@ export const getProductDetails = () => (dispatch) =>{
   let productApiURL = productConst.PRODUCT_API_URL;  
    
   const setProductDetailsSuccess = (response) => {
-      
       dispatch(setProductDetailsImages(response.Images[0]))
       dispatch(setProductDetailsDescription(response.ItemDescription[0]))
       dispatch(setProductDetailsCustomerReview(response.CustomerReview[0]))

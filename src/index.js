@@ -10,7 +10,6 @@ import {
     BrowserRouter as Router,
     Route,
   } from 'react-router-dom';
-
 import ProductsMain from './products/ProductsMain';
 import App from './App';
 

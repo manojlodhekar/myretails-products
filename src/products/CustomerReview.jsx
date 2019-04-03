@@ -2,7 +2,7 @@ import React from 'react';
 import { getStarRating} from '../utils/ProductUtils';
 
 const CustomerReview = (props) =>{
-
+    
     let displayDate = new Date(props.customerReview.datePosted).toDateString().split(' ');
     displayDate = `${displayDate[1]} ${displayDate[2]}, ${displayDate[3]}`;
 

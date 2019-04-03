@@ -7,7 +7,6 @@ export default function productReducer(currentState = initialState, action){
         case type.SET_PRODUCT_DETAILS :
            updatedState.selectedProductDetail = action.payload
         break;
-
         case type.SET_PRODUCT_IMAGES :
            updatedState.productDetailImages = action.payload
         break;
@@ -26,7 +25,6 @@ export default function productReducer(currentState = initialState, action){
         case type.SET_PRODUCT_RETURNPOLICY :
            updatedState.productDetailReturnPolicy = action.payload
         break;
-
         case type.PRODUCT_API_ERROR :
             updatedState.productApiError = action.payload
         break;
