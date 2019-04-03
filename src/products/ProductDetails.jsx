@@ -33,7 +33,7 @@ class ProductDetails extends Component {
     }
 
     buyProduct = (btnStatus) =>{
-        alert(`${btnStatus} clicked.`);
+        alert(` ${this.state.quantity} items added to cart.`);
     }
     updateDimensions() {
         const realContainerWidth = window.innerWidth;
@@ -142,13 +142,13 @@ class ProductDetails extends Component {
                             <Grid columns={3}>
                                 <Grid.Row>
                                 <Grid.Column className="segCol">
-                                     <Segment className="segmentItem">{productConst.ADD_TO_REG}</Segment>
+                                     <Segment className="segmentItem" onClick={()=>alert(`Click to action for "${productConst.ADD_TO_REG}"`)}>{productConst.ADD_TO_REG}</Segment>
                                 </Grid.Column>
                                 <Grid.Column className="segCol">
-                                     <Segment className="segmentItem">{productConst.ADD_TO_LIST}</Segment>
+                                     <Segment className="segmentItem" onClick={()=>alert(`Click to action for "${productConst.ADD_TO_LIST}"`)}>{productConst.ADD_TO_LIST}</Segment>
                                 </Grid.Column>
                                 <Grid.Column className="segCol">
-                                     <Segment className="segmentItem">{productConst.SHARE}</Segment>
+                                     <Segment className="segmentItem" onClick={()=>alert(`Click to action for "${productConst.SHARE}"`)}>{productConst.SHARE}</Segment>
                                 </Grid.Column>
                                 </Grid.Row>
                             </Grid>
